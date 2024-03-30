@@ -19,7 +19,7 @@
     }
 
     constructor() {
-      if (this.hasMode) {
+      {% comment %} if (this.hasMode) {
         if (this.isDarkMode) {
           if (!this.isSysDarkPrefer) {
             this.setDark();
@@ -29,7 +29,8 @@
             this.setLight();
           }
         }
-      }
+      } {% endcomment %}
+      this.setDark();
 
       let self = this;
 
