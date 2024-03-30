@@ -101,7 +101,7 @@ toc: true
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: "disqus"
   # The provider options are as follows:
   disqus:
     comments: true
