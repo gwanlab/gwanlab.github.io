@@ -90,7 +90,7 @@ theme_mode: # [light | dark]
 img_cdn: "https://cdn.elcode.co.kr"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/blog/main_business_img4.webp"
+avatar: "/blog/elcode_profile.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
