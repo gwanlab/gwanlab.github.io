@@ -8,7 +8,6 @@ tail_includes:
   - post-nav
   - comments
 ---
-
 {% include lang.html %}
 
 <article class="px-1">
@@ -97,6 +96,9 @@ tail_includes:
 
   <div class="content">
     {{ content }}
+    {% if site.disqus.shortname %}
+      {% include disqus.html %}
+    {% endif %}
   </div>
 
   <div class="post-tail-wrapper text-muted">
