@@ -2,7 +2,7 @@
 layout: post
 title: React-Hook-Form에 Zod를 곁들여 유효성 검증하기
 author: K
-date: 2024-04-13 01:06:00 +09:00
+date: 2024-04-13 02:21:00 +09:00
 categories: [React, React-Hook-Form, Zod]
 tags: [React, Validation, Zod, React-Hook-Form]
 render_with_liquid: false
@@ -14,7 +14,7 @@ image:
 
 # React-Hook-Form에 Zod를 곁들여 유효성 검증하기
 
-![React-Hook-Form-With-Zod](https://cdn.elcode.co.kr/blog/react-hook-form-with-zod.png)
+![React-Hook-Form-With-Zod](blog/react-hook-form-with-zod.png)
 
 
 React-Hook-Form은 유효성 검사를 쉽게 사용할 수 있게 해주는 라이브러리이다.
@@ -124,7 +124,7 @@ const Form = () => {
   );
 };
 
-export default Form2;
+export default Form;
 ```
 
 ```tsx
@@ -147,6 +147,8 @@ function App() {
 
 export default App;
 ```
+
+![React-Hook-Form-With-Zod-Image-1](blog/react-hook-form-with-zod-img1.png)
 
 ---
 
@@ -233,7 +235,7 @@ zod는 `z.object()` 메소드를 사용하여 스키마를 정의 한다.
 
 `refine()` 메소드를 통해 커스텀 유효성 검사 로직을 수행할 수 있다.
 
-마지막으로 `type ValidationSchema`에 타입을 추춣하여 가져오게 된다.
+마지막으로 `type ValidationSchema`에 타입을 추출하여 가져오게 된다.
 
 ```typescript
 // 타입이 추출된 type ValidationSchema 
@@ -364,15 +366,34 @@ export default Form;
 아까 zod에 정의한 에러 메세지를 react-hook-form의 `errors`를 사용하여 에러메시지를 핸들링 해주면 된다.
 
 ```tsx
-        <input
-          className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
-          type="text"
-          placeholder="이름을 입력하세요."
-          {...register("name")}
-        />
-        {errors.name && (
-          <p className="text-xs italic text-red-500 mt-2">
-            {errors.name.message}
-          </p>
-        )}
+
+//...
+<input
+    className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
+    type="text"
+    placeholder="이름을 입력하세요."
+    {...register("name")}
+/>
+{errors.name && (
+    <p className="text-xs italic text-red-500 mt-2">
+    {errors.name.message}
+    </p>
+)}
+//...
 ```
+
+![React-Hook-Form-With-Zod-Image-2](blog/react-hook-form-with-zod-img2.png)
+
+에러 핸들링까지 완료 된것을 볼 수 있다.
+
+
+### Conclusion
+
+이 글에서는 기본적인 폼 유효성 검증만 해보았다.
+
+React-Hook-Form + Zod는 무적이다.
+
+더 강력한 기능도 많으니, 관심이 있다면 공식문서를 살펴보도록 하자.
+
+[React-Hook-Form-Docs 바로가기](https://www.react-hook-form.com/)
+[Zod Docs 바로가기](https://zod.dev/)
