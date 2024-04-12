@@ -366,7 +366,6 @@ export default Form;
 아까 zod에 정의한 에러 메세지를 react-hook-form의 `errors`를 사용하여 에러메시지를 핸들링 해주면 된다.
 
 ```tsx
-
 //...
 <input
     className="w-full px-3 py-2 text-sm leading-tight text-gray-700 border rounded appearance-none focus:outline-none focus:shadow-outline"
@@ -395,5 +394,6 @@ React-Hook-Form + Zod는 무적이다.
 
 더 강력한 기능도 많으니, 관심이 있다면 공식문서를 살펴보도록 하자.
 
-[React-Hook-Form-Docs 바로가기](https://www.react-hook-form.com/)
-[Zod Docs 바로가기](https://zod.dev/)
+[React-Hook-Form-Docs](https://www.react-hook-form.com/)
+
+[Zod-Docs](https://zod.dev/)
