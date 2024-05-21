@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React-Hook-Form에 Zod를 곁들여 유효성 검증하기
+title: Typescript 1편 설치 및 환경설정
 author: K
 date: 2024-05-21 18:21:00 +09:00
 categories: [Typescript]
