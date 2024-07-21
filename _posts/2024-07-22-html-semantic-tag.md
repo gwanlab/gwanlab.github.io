@@ -29,13 +29,13 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <header>
-	<h1>GOOD COMPANY</h1>
-	<nav>
-		<ul>
-			<li><a href="#home">홈</a></li>
-			<li><a href="#about">소개</a></li>
-		</ul>
-	</nav>
+  <h1>GOOD COMPANY</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">홈</a></li>
+        <li><a href="#about">소개</a></li>
+      </ul>
+    </nav>
 </header>
 ```
 
@@ -49,11 +49,11 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <nav>
-	<ul>
-		<li><a href="#services">서비스</a></li>
-		<li><a href="#products">제품</a></li>
-		<li><a href="#contact">연락처</a></li>
-	</ul>
+  <ul>
+    <li><a href="#services">서비스</a></li>
+    <li><a href="#products">제품</a></li>
+    <li><a href="#contact">연락처</a></li>
+  </ul>
 </nav>
 ```
 
@@ -68,8 +68,8 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <main>
-	<h1>Welcome!</h1>
-	<p>저희 제품을 소개합니다.</p>
+  <h1>Welcome!</h1>
+  <p>저희 제품을 소개합니다.</p>
 </main>
 ```
 
@@ -84,8 +84,8 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <article>
-	<h1>공지사항 전달 드립니다</h1>
-	<p>네 공지사항은 사실 없습니다.</p>
+  <h1>공지사항 전달 드립니다</h1>
+  <p>네 공지사항은 사실 없습니다.</p>
 </article>
 ```
 
@@ -99,8 +99,8 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <section>
-	<h2>회사 소개</h2>
-	<p>우리 회사는 좋은 회사입니다.</p>
+  <h2>회사 소개</h2>
+  <p>우리 회사는 좋은 회사입니다.</p>
 </section>
 ```
 
@@ -114,11 +114,11 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <aside>
-	<h3>관련 링크</h3>
-	<ul>
-		<li><a href="#news">최신 뉴스</a></li>
-		<li><a href="#events">이벤트</a></li>
-	</ul>
+  <h3>관련 링크</h3>
+    <ul>
+      <li><a href="#news">최신 뉴스</a></li>
+      <li><a href="#events">이벤트</a></li>
+    </ul>
 </aside>
 ```
 
@@ -133,10 +133,10 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <footer>
-	<p>&copy; 2024 elcode. all rights reserved.</p>
-	<address>
-		연락처: <a href="mailto:admin@elcode.co.kr">admin@elcode.co.kr</a>
-	</address>
+  <p>&copy; 2024 elcode. all rights reserved.</p>
+    <address>
+      연락처: <a href="mailto:admin@elcode.co.kr">admin@elcode.co.kr</a>
+    </address>
 </footer>
 ```
 
@@ -150,8 +150,8 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <figure>
-	<img src="/img/test-img.png" alt="신제품 이미지" />
-	<figcaption>그림1: 엄청난 신제품 이미지</figcaption>
+  <img src="/img/test-img.png" alt="신제품 이미지" />
+  <figcaption>그림1: 엄청난 신제품 이미지</figcaption>
 </figure>
 ```
 ---
@@ -188,8 +188,8 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <details>
-	<summary>제품 상세 정보</summary>
-	<p>이 제품은 엄청납니다..</p>
+  <summary>제품 상세 정보</summary>
+  <p>이 제품은 엄청납니다..</p>
 </details>
 ```
 
@@ -203,8 +203,8 @@ HTML의 Semantic Tag를 용도에 맞게 알고 사용 하면, SEO 개선과 접
 
 ```html
 <address>
-	작성자: <a href="mailto:admin@elcode.co.kr">홍길동</a><br>
-	사랑시 고백구 행복동 123
+  작성자: <a href="mailto:admin@elcode.co.kr">홍길동</a><br>
+  사랑시 고백구 행복동 123
 </address>
 ```
 
