@@ -139,3 +139,8 @@ const {
 } = post;
 ```
 * 객체 내부 메서드를 구조분해 하고 사용할 때는,  `bind` 메서드를 사용하여 객체의 컨텍스트를 유지해야 한다.
+
+
+[Destructuring Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
+[Function.prototype.bind()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
