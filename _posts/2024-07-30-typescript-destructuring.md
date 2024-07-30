@@ -60,14 +60,14 @@ const post = {
 
 // ES2015
 const logPost2 = ({
-  title,
-  content,
+  title,
+  content,
 }: {
-  title: string;
-  content: string;
+  title: string;
+  content: string;
 }): void => {
-  console.log(title); // post title
-  console.log(content); // lorem ipsum...
+  console.log(title); // post title
+  console.log(content); // lorem ipsum...
 };
 
 logPost2(post);
