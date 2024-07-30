@@ -27,16 +27,16 @@ image:
 
 ```typescript
 const post = {
-	title: "post title",
-	content: "lorem ipsum...",
-	date: new Date(),
+  title: "post title",
+  content: "lorem ipsum...",
+  date: new Date(),
 }
 
 // 👌 post를 console.log로 출력하는 함수
 // ❗구조분해(Destructuring)을 하지 않은 예시
 const logPost = (post): void => {
-	console.log(post.title); // post title
-	console.log(post.content); //lorem ipsum...
+  console.log(post.title); // post title
+  console.log(post.content); //lorem ipsum...
 }
 
 logPost(post);
@@ -53,9 +53,9 @@ logPost(post);
 
 ```typescript
 const post = {
-	title: "post title",
-	content: "lorem ipsum...",
-	date: new Date(),
+  title: "post title",
+  content: "lorem ipsum...",
+  date: new Date(),
 }
 
 // ES2015
@@ -89,13 +89,13 @@ title과 content만 구조분해로 데이터를 뽑아온다고 했을때,
 
 ```typescript
 const post = {
-	id: 1,
-	title: "post title",
-	content: "lorem ipsum...",
-	date: new Date(),
-	setContent(content: string): void {
-		this.content = content;
-	}
+  id: 1,
+  title: "post title",
+  content: "lorem ipsum...",
+  date: new Date(),
+  setContent(content: string): void {
+    this.content = content;
+  }
 };
 
 const {id, title, content, setContent}: {id: number, title: string, content: string, setContent(content: string): void} = post;
